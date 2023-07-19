@@ -1,0 +1,22 @@
+{
+    "name": "rtech/rdatacar",
+    "description": "Open data API for car informations",
+    "autoload": {
+        "psr-4": {
+            "RTech\\RDataCar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rarivoson Andrianambinintsoa",
+            "email": "nambinintsoa26@yahoo.fr"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "scripts": {
+        "lint": "phpcs ./src --standard=PSR2",
+        "lint-fix": "phpcbf ./src --standard=PSR2"
+    }
+}
